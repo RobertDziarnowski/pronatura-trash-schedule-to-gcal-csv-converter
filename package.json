@@ -1,0 +1,23 @@
+{
+  "name": "pronatura-trash-schedule-to-google-calendar-csv",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "bin": {
+    "trash-schedule-converter": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.13.0",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "json-2-csv-ts": "^1.1.2"
+  }
+}
